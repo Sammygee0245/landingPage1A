@@ -47,21 +47,9 @@ html {
   width: 100vw;
   height: 180px;
   padding: 10px;
-  -webkit-animation: slide 0.3s 1 linear;
-          animation: slide 0.3s 1 linear;
+  animation: slide 0.3s 1 linear;
   transition: all 0.5s ease;
   display: none;
-}
-
-@-webkit-keyframes slide {
-  0% {
-    width: 100vw;
-    height: 0;
-  }
-  100% {
-    width: 100vw;
-    height: 180px;
-  }
 }
 
 @keyframes slide {
@@ -85,20 +73,7 @@ html {
   justify-content: center;
   flex-direction: row;
   padding: 13px 10px;
-  -webkit-animation: slide-list 0.3s 1 linear;
-          animation: slide-list 0.3s 1 linear;
-}
-
-@-webkit-keyframes slide-list {
-  0% {
-    opacity: 0;
-  }
-  90% {
-    opacity: 0.1;
-  }
-  100% {
-    opacity: 1;
-  }
+  animation: slide-list 0.3s 1 linear;
 }
 
 @keyframes slide-list {
@@ -142,20 +117,8 @@ html {
   align-items: flex-start;
   justify-content: space-around;
   flex-direction: column;
-  -webkit-animation: dropdown 0.3s 1 linear;
-          animation: dropdown 0.3s 1 linear;
+  animation: dropdown 0.3s 1 linear;
   display: none;
-}
-
-@-webkit-keyframes dropdown {
-  0% {
-    width: 100vw;
-    height: 0;
-  }
-  100% {
-    width: 100vw;
-    height: 130px;
-  }
 }
 
 @keyframes dropdown {
@@ -174,8 +137,7 @@ html {
   font-weight: 400;
   text-transform: uppercase;
   margin-left: 8.8rem;
-  -webkit-animation: slide-list 0.3s 1 linear;
-          animation: slide-list 0.3s 1 linear;
+  animation: slide-list 0.3s 1 linear;
 }
 
 @keyframes slide-list {
@@ -508,7 +470,18 @@ html {
   padding: 12px;
 }
 
-.fa-location-pin, .fa-flask, .fa-money-bill-1-wave, .fa-lightbulb, .fa-lock, .fa-heart, .fa-key, .fa-thumbs-up, .fa-microphone-alt, .fa-user, .fa-diamond, .fa-watchman-monitoring {
+.fa-location-pin,
+.fa-flask,
+.fa-money-bill-1-wave,
+.fa-lightbulb,
+.fa-lock,
+.fa-heart,
+.fa-key,
+.fa-thumbs-up,
+.fa-microphone-alt,
+.fa-user,
+.fa-diamond,
+.fa-watchman-monitoring {
   font-size: 25px;
   margin-right: 8px;
   color: transparent;
